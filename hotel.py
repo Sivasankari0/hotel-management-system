@@ -16,7 +16,7 @@ class HotelManagementSystem:
     
        #  =========================== 1st img ===========================
 
-        img1=Image.open(r"C:\Users\Siva\Downloads\ouside hotel.png")
+        img1=Image.open("ouside hotel.png")
         img1=img1.resize((1100,140),Image.Resampling.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -25,7 +25,7 @@ class HotelManagementSystem:
 
         #============================= logo ==============================
         
-        img2=Image.open(r"C:\Users\Siva\Downloads\hotellogo.png")
+        img2=Image.open("hotellogo.png")
         img2=img2.resize((230,140),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -69,7 +69,7 @@ class HotelManagementSystem:
 
         # ==================== RIGHT SIDE IMAGE ================
         
-        img3=Image.open(r"C:\Users\Siva\Downloads\receptionist hall.png")
+        img3=Image.open("receptionist hall.png")
         img3=img3.resize((1090,590),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -78,7 +78,7 @@ class HotelManagementSystem:
 
         # ======================== down image =======================
 
-        img4=Image.open(r"C:\Users\Siva\Downloads\ouside hotel.png")
+        img4=Image.open("ouside hotel.png")
         img4=img4.resize((230,190),Image.Resampling.LANCZOS)
         self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -86,7 +86,7 @@ class HotelManagementSystem:
         lblimg1.place(x=0,y=225,width=230,height=100)
 
           
-        img5=Image.open(r"C:\Users\Siva\Downloads\food.png")
+        img5=Image.open("food.png")
         img5=img5.resize((230,200),Image.Resampling.LANCZOS)
         self.photoimg5=ImageTk.PhotoImage(img5)
 

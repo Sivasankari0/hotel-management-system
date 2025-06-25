@@ -16,7 +16,7 @@ class Login_page:
         self.root.geometry("1550x800+0+0")
 
         # Resize image to window size
-        img = Image.open(r"C:\Users\Siva\Downloads\login wall paper.png")
+        img = Image.open("login wall paper.png")
         img = img.resize((1550, 700), Image.Resampling.LANCZOS)
         self.bg = ImageTk.PhotoImage(img)
 
@@ -26,7 +26,7 @@ class Login_page:
         frame=Frame(self.root,bg="whitesmoke")
         frame.place(x=460,y=100,width=340,height=450)
 
-        img1=Image.open(r"C:\Users\Siva\Downloads\login user.png")
+        img1=Image.open("login user.png")
         img1=img1.resize((130,130),Image.Resampling.LANCZOS)
         self.photoimage1=ImageTk.PhotoImage(img1)
         lblimg1=Label(image=self.photoimage1,bg="whitesmoke",borderwidth=0)
@@ -52,13 +52,13 @@ class Login_page:
 
         # ======================icon images==================
 
-        img2=Image.open(r"C:\Users\Siva\Downloads\login user.png")
+        img2=Image.open("login user.png")
         img2=img2.resize((25,25),Image.Resampling.LANCZOS)
         self.photoimage2=ImageTk.PhotoImage(img2)
         lblimg2=Label(image=self.photoimage2,bg="whitesmoke",borderwidth=0)
         lblimg2.place(x=500,y=233,width=25,height=25)
 
-        img3=Image.open(r"C:\Users\Siva\Downloads\password.png")
+        img3=Image.open("password.png")
         img3=img3.resize((25,25),Image.Resampling.LANCZOS)
         self.photoimage3=ImageTk.PhotoImage(img3)
         lblimg3=Label(image=self.photoimage3,bg="whitesmoke",borderwidth=0)
@@ -220,7 +220,7 @@ class Register:
 
          # Resize image to window size
 
-        img = Image.open(r"C:\Users\Siva\Downloads\register wall paper.png")
+        img = Image.open("register wall paper.png")
         img = img.resize((1550, 700), Image.Resampling.LANCZOS)
         self.bg = ImageTk.PhotoImage(img)
 
@@ -229,7 +229,7 @@ class Register:
 
         # ====================left image==============
 
-        img1 = Image.open(r"C:\Users\Siva\Downloads\coffe.png")
+        img1 = Image.open("coffe.png")
         img1 = img1.resize((450, 450), Image.Resampling.LANCZOS)
         self.bg1 = ImageTk.PhotoImage(img1)
 
@@ -316,13 +316,13 @@ class Register:
 
         # ============ buttons ==========
 
-        img3=Image.open(r"C:\Users\Siva\Downloads\register now.png")
+        img3=Image.open("register now.png")
         img3=img3.resize((100,100),Image.Resampling.LANCZOS)
         self.photoimage3=ImageTk.PhotoImage(img3)
         b1=Button(frame,image=self.photoimage3,command=self.register_data,borderwidth=0,cursor="hand2",bg="white",activebackground="white")
         b1.place(x=80,y=420,width=150)
 
-        img4=Image.open(r"C:\Users\Siva\Downloads\login.png")
+        img4=Image.open("login.png")
         img4=img4.resize((100,100),Image.Resampling.LANCZOS)
         self.photoimage4=ImageTk.PhotoImage(img4)
         b1=Button(frame,image=self.photoimage4,borderwidth=0,command=self.back_to_login,cursor="hand2",bg="white",activebackground="white")
@@ -389,7 +389,7 @@ class HotelManagementSystem:
     
        #  =========================== 1st img ===========================
 
-        img1=Image.open(r"C:\Users\Siva\Downloads\ouside hotel.png")
+        img1=Image.open("ouside hotel.png")
         img1=img1.resize((1100,140),Image.Resampling.LANCZOS)
         self.photoimg1=ImageTk.PhotoImage(img1)
 
@@ -398,7 +398,7 @@ class HotelManagementSystem:
 
         #============================= logo ==============================
         
-        img2=Image.open(r"C:\Users\Siva\Downloads\hotellogo.png")
+        img2=Image.open("hotellogo.png")
         img2=img2.resize((230,140),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -442,7 +442,7 @@ class HotelManagementSystem:
 
         # ==================== RIGHT SIDE IMAGE ================
         
-        img3=Image.open(r"C:\Users\Siva\Downloads\receptionist hall.png")
+        img3=Image.open("receptionist hall.png")
         img3=img3.resize((1090,590),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
@@ -451,7 +451,7 @@ class HotelManagementSystem:
 
         # ======================== down image =======================
 
-        img4=Image.open(r"C:\Users\Siva\Downloads\ouside hotel.png")
+        img4=Image.open("ouside hotel.png")
         img4=img4.resize((230,190),Image.Resampling.LANCZOS)
         self.photoimg4=ImageTk.PhotoImage(img4)
 
@@ -459,7 +459,7 @@ class HotelManagementSystem:
         lblimg1.place(x=0,y=225,width=230,height=100)
 
           
-        img5=Image.open(r"C:\Users\Siva\Downloads\food.png")
+        img5=Image.open("food.png")
         img5=img5.resize((230,200),Image.Resampling.LANCZOS)
         self.photoimg5=ImageTk.PhotoImage(img5)
 

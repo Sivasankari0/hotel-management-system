@@ -38,7 +38,7 @@ class Room_booking:
         
         #===============logo============================
         
-        img2=Image.open(r"C:\Users\Siva\Downloads\hotellogo.png")
+        img2=Image.open("hotellogo.png")
         img2=img2.resize((100,40),Image.Resampling.LANCZOS)
         self.photoimg2=ImageTk.PhotoImage(img2)
 
@@ -210,7 +210,7 @@ class Room_booking:
         # =================room image==================
 
         
-        img3=Image.open(r"C:\Users\Siva\Downloads\room.png")
+        img3=Image.open("room.png")
         img3=img3.resize((300,190),Image.Resampling.LANCZOS)
         self.photoimg3=ImageTk.PhotoImage(img3)
 
